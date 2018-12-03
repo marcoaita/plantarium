@@ -20,8 +20,8 @@ int pot1val=0;
 //Pin names - Inputs/Outputs
 const int sw0in = D5;       // GPIO14 // Switches. For ease of implementation they are used with pwm
 const int sw1in = D6;       // GPIO12
-const int Pot0in = D8;      // GPIO15 // The Pot pins are actually outputs to control which potentiometer is active and use multiple pot on the single ADC on the ESP8266
-const int Pot1in = D7;      // GPIO13 
+const int Pot0in = D7;      // GPIO13 // The Pot pins are actually outputs to control which potentiometer is active and use multiple pot on the single ADC on the ESP8266
+const int Pot1in = D8;      // GPIO15 
 
 // PWM outputs
 const int Pot0out = 2; // pwm output channel PCA9685
